@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background-color: #050505;
+    color: #ffffff;
+  }
+
+  h1, h2, h3, h4, .font-athletic {
+    font-family: 'Oswald', -apple-system, BlinkMacSystemFont, sans-serif;
+    letter-spacing: 0.03em;
+  }
+}
+
+/* Custom athletic crimson red glow accents and button styling */
+.glow-red {
+  box-shadow: 0 0 25px rgba(255, 30, 39, 0.35);
+}
+
+.glow-red-sm {
+  box-shadow: 0 0 12px rgba(255, 30, 39, 0.25);
+}
+
+.border-red-accent {
+  border-color: #FF1E27;
+}
+
+.text-red-accent {
+  color: #FF1E27;
+}
+
+.bg-red-accent {
+  background-color: #FF1E27;
+}
